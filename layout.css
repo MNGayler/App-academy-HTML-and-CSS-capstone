@@ -1,0 +1,164 @@
+html {
+  background-color: #edeec9;
+}
+
+.navbar {
+  background-color: #77bfa3;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 40px;
+  margin-right: 20px;
+  align-items: center;
+}
+
+.nav-links a {
+  font-size: 30px;
+}
+
+h1 {
+  color: #77bfa3;
+  text-align: center;
+  font-size: 500%;
+  text-decoration: underline;
+}
+
+h2 {
+  color: #77bfa3;
+  text-align: center;
+  font-size: 300%;
+}
+
+.main-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  color: #77bfa3;
+  font-size: 200%;
+}
+
+.main-container h2 {
+  font-size: 200%;
+  text-decoration: underline;
+}
+
+.main-container p {
+  text-align: justify;
+  padding: 5px;
+  margin: 5px;
+  border: 1px dotted #bfd8bd;
+}
+
+.main-text {
+  text-align: center;
+  color: #77bfa3;
+}
+
+.main-img img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.ourfruit-main-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.fruit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fruit img {
+  max-width: 20em;
+  height: 20em;
+  display: block;
+  margin: 0 auto;
+  border-radius: 5%;
+}
+
+.fruit h3 {
+  text-align: center;
+  background-color: #bfd8bd;
+  padding: 5%;
+  margin: 5%;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+fieldset {
+  display: flex;
+  flex-direction: column;
+  background-color: #dde7c7;
+  color: #256e52;
+  width: 25em;
+  text-align: center;
+
+}
+
+.label-and-field {
+  display: flex;
+  flex-direction: column;
+}
+
+.button-div{
+    display: flex;
+    justify-content: center;
+}
+
+.register {
+  width: 50%;
+}
+
+.fruit-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    border: 2px solid #bfd8bd;
+    border-radius: 5%;
+}
+
+.fruit-image-container {
+    grid-column: 1;
+  }
+
+ .fruit-info-container {
+    grid-column: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #77bfa3;
+    font-size: 300%;
+ }
+
+
+
+.fruit-image-container img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 5%;
+  }
+
+  .buy{
+    margin-top: 30px;
+    background-color: #bfd8bd;
+    border-radius: 3%;
+    padding: 20px;
+
+  }
